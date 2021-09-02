@@ -1,0 +1,95 @@
+h1 {
+
+text-align : center;
+background-color : #eeeeee;
+box-shadow: 3px 3px 3px silver;
+padding: 15px 10px;
+
+}
+
+h2 {
+
+text-align : center;
+
+
+
+}
+
+#content {
+
+text-align : center;
+
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: auto;
+  max-width: 120px;
+  box-shadow: 3px 3px 3px silver;
+}
+
+#rechercher {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+ 
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+  box-shadow: 3px 3px 3px silver;
+}
+
+#annuler{
+  background-color: indianred; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+  box-shadow: 3px 3px 3px silver;
+}
+
+#auteur, #titre {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input[type=submit]:hover {
+  background-color: #45a049;
+}
