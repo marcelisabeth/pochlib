@@ -1,0 +1,19 @@
+{
+  "name": "pochlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "sass --watch ./pochlib/main.scss:./pochlib/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelisabeth/pochlib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelisabeth/pochlib/issues"
+  },
+  "homepage": "https://github.com/marcelisabeth/pochlib#readme"
+}
