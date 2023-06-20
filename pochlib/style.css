@@ -64,6 +64,15 @@
     margin-right: 100%;
     cursor: pointer;
   }
+
+  .logo
+     {
+         display:block;
+         margin-left:auto;
+         margin-right:auto;
+         width:10%;
+     }
+
   .searchButton:hover {
     opacity: 0.9;
   }
@@ -117,14 +126,14 @@
   }
   .bookmark {
     top: 40px;
-    left: 220px;
+    
     height: 20px;
     padding-top: 30px;
   }
   .deletebookmark {
     position: relative;
     top: 40px;
-    left: 220px;
+    
     width: 10%;
   }
   .maxlenght {
@@ -256,7 +265,6 @@
 
 .bookmark {
   top: 40px;
-  left: 220px;
   height: 20px;
   padding-top: 30px;
 }
@@ -264,7 +272,6 @@
 .deletebookmark {
   position: relative;
   top: 40px;
-  left: 220px;
   width: 10%;
 }
 
@@ -392,11 +399,12 @@
     text-align: center;
   }
   .bookmark {
-    left: 220px;
+    
     width: 8%;
   }
   .deletebookmark {
     position: relative;
+    
     width: 10%;
   }
   .maxlenght {
