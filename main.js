@@ -28,28 +28,28 @@ creationAjoutBouton();
 
 function createAllEventListner() {
   document.getElementById("searchButton").addEventListener(
-    "click",
+   "click",
     function () {
                   displaySearchBook();
-                  clearPochlist();
+                  
                   if (document.getElementById("maPochList")) {
                   document.getElementById("maPochList").hidden = false;
                 }
       if (document.getElementById("poch-List")) {
-        document.getElementById("poch-List").hidden = false;
+       document.getElementById("poch-List").hidden = false;
       }
     });
 
-  document.getElementById("cancelButton").addEventListener(
-    "click",
-    function () 
-        {
+  document.getElementById("cancelButton")
+  
+  .addEventListener(
+         "click",
+              function () {
           
-                  windows.location.href="file:///C:/Users/melisabeth/git/pochlib/pochlib/index.html"; 
-                 // displayBookToPochList();
-                  document.getElementById("results").hidden = true;
-         },
-  );
+                           location.reload(); 
+                  
+                           },
+                   );
 }
   // Bouton de recherche livre
 
@@ -156,28 +156,25 @@ function searchbook()
 function addToFavorites(id) 
 
 {    
-  //code pour stocker le code ID  du livre
+    // Verification si le livre existe dans les favoris
+    if(localStorage.getItem(id) === null)
+    
+    { 
+       localStorage.setItem (id,id);
 
-  localStorage.setItem (id,id)
+       // ajout de la fonction "supprimer des favoris" sur l icone corbeille
+       var newimage = "./corbeille.png";
+       var oldimage = document.getElementById(id);
+       oldimage.setAttribute("src", newimage);
+       oldimage.setAttribute('onclick','deleteToFavorites("id")');
+    }
 
-  // remplacement icone favori par la corbeille
+    else
 
-  var livre_existant = id
-  var newimage = "./corbeille.png";
-  var oldimage = document.getElementById(id);
-
-  oldimage.setAttribute("src", newimage);
-
-  // ajout de la fonction "supprimer des favoris" sur l icone corbeille
-
-  oldimage.setAttribute('onclick','deleteToFavorites("id")');
-
-  // ajout d'un message d'alerte si le livre est déjà dans les favoris
-
-    if (livre_existant = localStorage.getItem (id)) 
-     {
-       alert ('Ce livre existe déjà dans vos favoris.')
-     }
+    {
+      alert ("Ce livre existe déjà dans vos favoris");
+    }
+   
 }
 
 //Ajouter un formulaire de recherche
