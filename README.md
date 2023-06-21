@@ -38,6 +38,6 @@ A noter que l'ensemble des fichiers se trouvent dans le dossier POCHLIB et ne do
 
 ### AUTEUR ###
 
-- Marc ELISABETH (https://github.com/votre-utilisateur) - Développeur principal
+- Marc ELISABETH (https://github.com/marcelisabeth) - Développeur principal
 
 
