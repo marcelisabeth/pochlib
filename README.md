@@ -10,7 +10,7 @@ Je tiens avant tout  remercier mon mentor, M. Hamza BOUDOUIRA sans qui je n'aura
 Ce fichier contient la marche  suivre pour l'installation des fichiers, réalisé dans le cadre du parcours de formation "Développeur Salesforce".
 Le projet a pour objectif de créer une application web interactive en utilisant JavaScript comme langage principal. 
 
-Il s'agit d'une application permettant de rechercher des livres en ligne et de les ajouter a sa bibliothèques en ligne.
+Il s'agit d'une application permettant de rechercher des livres en ligne et de les ajouter a sa bibliothèque en ligne.
 
 ### INSTALLATION ###
 
